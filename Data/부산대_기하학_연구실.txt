@@ -1,0 +1,59 @@
+<지도 교수 정보>
+
+1. 최영준 부교수
+
+학력
+
+2004.03 - 2011.02 : 포항공과대학교 수학과 박사
+2000.03 - 2004.02 : 포항공과대학교 수학과 학사
+
+경력
+
+2021.09 - 현재 : 부산대학교 수학과 부교수
+2017.09 - 2021.08 : 부산대학교 수학과 조교수
+2016.02 - 2017.08 : Institut Fourier, Universite de Grenoble-Alpes 연구원
+2012.01 - 2015.12 : 고등과학원 연구원
+2011.02 - 2011.12 : 한국과학기술원 BK21 연구원
+
+발행 논문(GPT 선정 주요 논문 5편)
+
+"Extension of the curvature form of the relative canonical line bundle on families of Calabi-Yau manifolds and applications" (2021/08)
+"Positivity of direct images of fiberwise ricci-flat metrics on Calabi-Yau fibrations" (2021/06)
+"Holomorphic Families of Strongly Pseudoconvex Domains in a Kähler Manifold" (2021/03)
+"Semi-continuity of the Diederich-Fornaess and Steinness indices" (2020/12)
+"A certain Kähler potential of the Poincaré metric and its characterization" (2020/11)
+
+주 연구 분야
+
+Complex Geometry, Geometric Analysis
+
+
+
+<연구 실적 정보>
+
+
+Yuan Shyong Ooi, 23.04.19, Stable minimal hypersurface in R^4 by Otis-Li, I will provide an outline of the method presented in Otis-Li paper (https://arxiv.org/abs/2108.11462) that proves the classical conjecture stating that a complete, two-sided, stable minimal hypersurface in R^4 is flat.  I will be focusing more on the Stern Bochner method for harmonic level set used in the proof of that paper.
+Sanghun Lee, 22.03.29, Myers-type theorems for Bakry-Emery Ricci tensor, One of the natural and important topics in Riemannian geometry is the relation between curvature and topology. Examples of good explanations of the relationship between curvature and topology include comparison geometry,  Cheeger-Gromoll splitting theorems,  Myers theorems,  etc. In particular,  Myers theorems show that positive Ricci curvature has strong topological consequences. In this talk, we focus on the Myers theorems. We review the classical Myers theorem and related theorems for the Ricci curvature and we also look at the results in the Bakry-Emery Ricci tensor.
+Yoonjung Lee, 22.03.22, Weighted Strichartz estimates and their application to INLS, Strichartz estimate is known as one of the fundamental tools to study the nonlinear dispersive PDEs and has been fruitfully used to prove the well-posedness of their Cauchy problem. In this talk, we review the known results of the classical Stricharz estimates for the Schrodinger equation. We then discuss the weighted Strichartz estimates introduced in our recent work with a spatial power weight |x|^{−α}, α>0. Interestingly, in an application of these weighted estimates, the well-posedness theory for the inhomogeneous nonlinear  Schrodinger equation (INLS) was established in the critical case which was left unsolved until recently.
+Cho, Yewon Luke, 22.03.15, On a generalization of Forelli's theorem, One of important issues in several complex variables is to establish criteria to determine holomorphicity of complex functions. Forelli's analyticity theorem (1977), which is perhaps second only to Hartogs' theorem (1907), has been generalized to various directions until recently. In this talk, we introduce a recent work (Cho, Kim, 2021) on the topic which generalizes previous works of Joo, Kim, Schmalz (2013), Chirka (2006), as well as the classical Forelli's theorem. We also introduce interesting history behind the work.
+
+Seminar
+
+Time: Tuesday 2:00 pm to 3:00 pm (GMT+9)
+Venue: Online (Zoom) or Comprehensive Research Bldg 313
+Zoom ID: 864 238 7353, PW: geometry
+
+Learning seminar
+
+Book: A Course in Minimal Surfaces (T. Colding & W. Minicozzi, AMS, 2011/01) 
+Time: 2:00 pm to 4:30 pm every Tuesday (GMT+9)
+Venue: Comprehensive Research Bldg 313
+
+
+<구성원 정보>
+
+
+정보 부족
+
+
+

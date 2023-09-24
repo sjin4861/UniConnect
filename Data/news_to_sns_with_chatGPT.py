@@ -24,25 +24,27 @@ def read_csv(file_path):
     return data
 
 # GPT 모델을 사용하여 글을 재작성
-def generate_text(prompt):
+def generate_text(messages):
     openai.api_key = api_key
-    response = openai.Completion.create(
-        engine="text-davinci-002",  # GPT-3.5-turbo를 사용하려면 엔진을 변경해주세요.
-        prompt=prompt,
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=messages,
         max_tokens=1000,  # 생성할 최대 토큰 수
-        temperature=0.7,  # 낮으면 보수적, 높으면 랜덤한 결과
-        n = 1  # 생성할 글의 개수
+        temperature=0.7
     )
-    return response.choices[0].text
+    return response.choices[0].message['content']
 
 # CSV 파일에서 데이터 읽어오기
 csv_file = '/Users/jun/Desktop/my_project/UniConnect/Data/crawled_news.csv'  # 실제 파일 경로로 바꿔주세요
 data = read_csv(csv_file)
 
-# 데이터를 기반으로 글을 생성 및 재작성
-#for title, content in data:
-prompt = f"제목: {data[1][0]}\n내용: {data[1][1]}\n글을 초등학생에게 흥미를 유발하는 친근한 말투로 재작성해줘."
-new_text = generate_text(prompt)
+conversation = [
+    {"role": "system", "content": "넌 세계의 각 대학과 입시를 준비하는 사람을 잇는 SNS 플랫폼의 메신저야. 제목과 내용을 입력하면 사용자들에게 지적 호기심을 불러일으킬 수 있는 글을 재 작성해줘."},
+    {"role": "user", "content": f"제목: {data[3][0]}\n내용: {data[3][1]}"},
+    #{"role": "assistant", "content": "Sure! We have several exciting research projects, including..."}
+]
+
+new_text = generate_text(conversation)
     
 # 생성된 글을 원하는 곳에 저장 또는 활용
 # 여기서는 콘솔에 출력하겠습니다.
